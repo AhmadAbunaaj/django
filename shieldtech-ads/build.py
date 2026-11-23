@@ -92,7 +92,7 @@ posts[5] = page(f'''<div class="photo" style="background-image:url(img/p5.png);b
 <div style="position:absolute;right:70px;left:70px;top:260px">
 <div class="tag">توصيل الإنترنت داخل المبنى</div>
 <h1>اشتراك واحد<br><em>يوصل لكل مكان</em></h1>
-<p class="sub">نوصل الإنترنت بين الشقق والغرف والمكاتب<br>بحلول سلكية ولاسلكية.</p>
+<p class="sub">نوصل الإنترنت بين الشقق والغرف والمكاتب<br>بتمديد داخلي احترافي، <span style="color:#fff;font-weight:500">بدون أي سلك ظاهر.</span></p>
 <div class="chips"><span class="chip">شقق</span><span class="chip">غرف</span><span class="chip">مكاتب</span></div></div>{foot()}''')
 
 # 6 Access points — photo, text bottom, viewfinder on AP
