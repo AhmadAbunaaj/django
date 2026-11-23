@@ -1,0 +1,43 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><style>
+@font-face{font-family:Changa;font-weight:800;src:url(../../fonts/changa-arabic-800-normal.woff2)}
+@font-face{font-family:Changa;font-weight:800;src:url(../../fonts/changa-latin-800-normal.woff2)}
+@font-face{font-family:Changa;font-weight:500;src:url(../../fonts/changa-arabic-500-normal.woff2)}
+@font-face{font-family:Changa;font-weight:500;src:url(../../fonts/changa-latin-500-normal.woff2)}
+@font-face{font-family:Saira;font-weight:800;src:url(../../fonts/saira-latin-800-normal.woff2)}
+:root{--bg:#0D0D0D;--red:#D7191F;--redt:#FF4A4F;--muted:#BDBDBD}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1080px;height:1350px;background:var(--bg);overflow:hidden;position:relative;font-family:Changa,sans-serif;color:#fff}
+.photo{position:absolute;left:0;width:1080px;top:380px;height:690px;background:url(bg.png) 62% 54%/1120px auto no-repeat;-webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 24%,#000 62%,transparent 96%);filter:brightness(.88) contrast(1.08)}
+.shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(13,13,13,.55) 0%,rgba(13,13,13,0) 30%,rgba(13,13,13,0) 75%,rgba(13,13,13,.5) 100%)}
+.vig{position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 55% 58%,transparent 50%,rgba(0,0,0,.55) 100%)}
+.head{position:absolute;top:86px;right:80px;left:80px}
+.kicker{font-family:Saira;font-weight:800;font-size:22px;letter-spacing:.42em;color:var(--redt);direction:ltr;text-align:right;margin-bottom:18px}
+h1{font-weight:800;font-size:122px;line-height:1.25;transform:skewX(-9deg);transform-origin:right}
+h1 .a{display:block;background:linear-gradient(180deg,#FFFFFF,#D6D6D6 55%,#8E8E8E);-webkit-background-clip:text;color:transparent}
+h1 .b{display:block;background:linear-gradient(180deg,#FF4A4F,#B80E16);-webkit-background-clip:text;color:transparent;padding-bottom:18px;margin-top:-14px}
+.sub{margin-top:6px;font-weight:500;font-size:36px;line-height:1.45;color:var(--muted);max-width:620px}
+/* braking-distance motif: dashes shrink and stop at a red line */
+.brake{position:absolute;top:338px;left:80px;display:flex;align-items:center;gap:12px;direction:ltr}
+.brake i{display:block;height:10px;background:#fff;transform:skewX(-30deg)}
+.brake .stop{width:6px;height:96px;background:var(--red);box-shadow:0 0 24px rgba(255,40,40,.8);margin-left:6px}
+.foot{position:absolute;bottom:62px;right:70px;left:80px;display:flex;align-items:flex-end;justify-content:space-between}
+.logo{width:470px;mix-blend-mode:lighten}
+.contact{text-align:left;padding-bottom:18px}
+.phone{font-family:Saira;font-weight:800;font-size:44px;letter-spacing:.06em;direction:ltr}
+.addr{font-weight:500;font-size:28px;color:var(--muted);margin-top:4px}
+.rule{width:60px;height:4px;background:var(--red);margin:0 auto 14px 0}
+</style></head><body>
+<div class="photo"></div><div class="shade"></div><div class="vig"></div>
+<div class="head">
+  <div class="kicker">BRAKE SYSTEMS</div>
+  <h1><span class="a">لحظة التوقف</span><span class="b">هي الأهم</span></h1>
+  <p class="sub">صيانة وقطع أنظمة الفرامل<br>للسيارات اليابانية والكورية</p>
+</div>
+<div class="brake">
+  <i style="width:70px;opacity:0.35"></i><i style="width:58px;opacity:0.48"></i><i style="width:46px;opacity:0.6"></i><i style="width:34px;opacity:0.74"></i><i style="width:22px;opacity:0.87"></i><i style="width:12px;opacity:1"></i><span class="stop"></span>
+</div>
+<div class="foot">
+  <img class="logo" src="../../logo-original.jpg">
+  <div class="contact"><div class="rule"></div><div class="phone" dir="ltr">0791175259</div><div class="addr">عمّان - القويسمة - شارع منور الحديد</div></div>
+</div>
+</body></html>
